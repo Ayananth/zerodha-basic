@@ -1,0 +1,269 @@
+
+.nav-bar {
+    box-shadow: rgb(238, 238, 238) 2px 1px 2px 0px;
+    padding-top: 15px;
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-bottom: 19px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; 
+    background-color: white;
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.menu-items {
+    display: flex;
+    color: #666;
+    /* font-family: sans-serif; */
+    font-family: Inter, serif;
+    font: 14.4px;
+    margin-left: 430px;
+}
+
+.nav-links {
+    margin-left: 40px; /* Adjust to maintain spacing */
+}
+
+.container {
+    padding: 0px 20px 120px;
+    margin: 75.5px 0px 0px;
+    font-family: Inter, serif;
+}
+
+.landing-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    margin-top: 75;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+p {
+    display: flex; justify-content: center; font-size: 20px;
+    margin-top: 12px;       
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button {
+    display: flex; 
+    justify-content:  center;
+    color:white; 
+    font-family: Inter,serif;
+    border-radius: 3px; 
+    background-color: #387ed1;
+    border: 1px solid rgba(0,0,0,0); 
+    font-weight: 500; 
+    font-size: 19.2px;
+    /* width: 204px; */
+    cursor: pointer;
+    padding: 10px 30px 10px 30px
+}
+
+body {
+    color: rgb(66, 66, 66); 
+    margin-bottom: 1000px;
+}
+
+.section-2, .section-3{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.left-section-2 h2{
+    font-size: 32px;
+    font-weight: 500; 
+    font-family: Inter,serif;
+    color: rgb(66, 66, 66);
+
+}
+
+.why-us-section h3 {
+    color: rgb(66, 66, 66);
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Inter,serif;
+    padding-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.why-us-section p {
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Inter,serif;
+    max-width: 400px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.section-3{
+    margin-top: 80px;
+}
+
+
+.why-us-section span {
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #387ed1;
+}
+
+.right-section-2 {
+    margin-left: 30px;
+
+}
+
+.right-links {
+    display: flex;
+    justify-content: center;
+    color: #387ed1;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Inter,serif;
+    margin-top:20px ;
+}
+
+.right-section-2 i{
+    padding-left: 5px;
+
+}
+
+
+.section-4, .section-5 {
+   display: flex;
+   margin-left: 418px;
+   margin-top: 100px;
+} 
+
+.left-section-4 h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+    font-family: Inter, serif
+
+}
+
+.left-section-4 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    font-family: Inter, serif
+
+}
+
+.left-section-4 .right-link, .right-section-5 .right-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(56, 126, 209);
+    font-family: Inter, serif;
+
+}
+
+.right-section-4 {
+    display: flex;
+}
+
+.right-section-4 p{
+    font-weight: 400;
+    color:rgb(66, 66, 66);
+    font-size: 10px;
+    padding-top: 75px;
+}
+
+
+.right-section-5 h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+    font-family: Inter, serif
+
+}
+
+.right-section-5 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    font-family: Inter, serif
+
+}
+
+
+
+
+.section-6 {
+    text-align: center;
+}
+
+.section-6 h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    color: rgb(66, 66, 66);
+    font-family: Inter, serif;
+}
+
+.section-6 p {
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Inter,serif;
+}
+
+
+/* -------------------------------------------------------------------- */
+
+
+.footer{
+    background-color: rgb(251, 251, 251);
+    border-top-color: rgb(238, 238, 238);
+    border-top-style: solid;
+    color : rgb(66, 66, 66);
+    display: block;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 100px;
+
+}
+
+.section-7 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+}
+
+.zerodha {
+    
+}
+
+
+
+
