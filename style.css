@@ -20,7 +20,6 @@
 .menu-items {
     display: flex;
     color: #666;
-    /* font-family: sans-serif; */
     font-family: Inter, serif;
     font: 14.4px;
     margin-left: 430px;
@@ -79,7 +78,6 @@ button {
 
 body {
     color: rgb(66, 66, 66); 
-    margin-bottom: 1000px;
 }
 
 .section-2, .section-3{
@@ -247,23 +245,91 @@ body {
     font-size: 16px;
     font-weight: 400;
     margin-top: 100px;
-
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .section-7 {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 .social {
     display: flex;
+
 }
 
 .zerodha {
+    display: flex;
+    flex-direction: column; 
+}
+
+.zerodha .copyright{
+    font-size: 12.8px;
+    font-weight: 400;
+    font-family: Inter, serif;
+    align-self: baseline;
+    padding: 5px;
+}
+
+.company {
+    margin-left: 75px
+}
+
+.company-item {
+    color:rgb(102, 102, 102) ;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Inter, serif;
+    margin-top: 10px;
     
 }
 
 
+.company .heading {
+    color:rgb(66, 66, 66) ;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Inter, serif;
+}    
 
 
+.details {
+    font-weight: 400;
+    font-size: 10.4px;
+    font-family: inter, serif;
+    color: rgb(155, 155, 155);
+}
+
+.details div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height:18.72px
+
+}
+
+
+.final {
+    display: block;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: rgb(155, 155, 155);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+
+
+}
+
+.social *{
+    width: 20px; height: 20px; padding-left: 15px;
+}
+
+.details .links {
+    color: #387ed1;
+}
